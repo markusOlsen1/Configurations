@@ -90,7 +90,8 @@
     "command": "search.action.focusSearchFromResults",
     "when": "searchViewletFocus"
   },
-  {"key": "ctrl+j",
+  {
+    "key": "ctrl+j",
     "command": "search.action.focusSearchList",
     "when": "searchViewletFocus"
   },
