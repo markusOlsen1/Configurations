@@ -86,6 +86,15 @@
 },
 // Place your key bindings in this file to override the defaultsauto[]
 
+  {"key": "ctrl+k",
+    "command": "search.action.focusSearchFromResults",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "search.action.focusSearchList",
+    "when": "searchViewletFocus"
+  },
   {"key": "shift+h",
     "command": "workbench.action.previousEditor"
   },
