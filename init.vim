@@ -37,6 +37,7 @@ if exists('g:vscode')
     nnoremap <silent> <C-w>s :call <SID>split('h')<CR>
     xnoremap <silent> <C-w>s :call <SID>split('h')<CR>
     
+    nnoremap ? <Cmd>call VSCodeNotify('workbench.action.findInFiles', { 'query': expand('<cword>')})<CR>
     nnoremap <silent> <C-w>v :call <SID>split('v')<CR>
     xnoremap <silent> <C-w>v :call <SID>split('v')<CR>
     
